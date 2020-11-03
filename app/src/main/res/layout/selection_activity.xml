@@ -9,4 +9,114 @@
 
     <!-- TODO -->
 
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/radioGroup2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageViewSelectionPikachu"
+            android:layout_width="wrap_content"
+            android:layout_height="118dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/pikachu" />
+
+        <RadioButton
+            android:id="@+id/radioPikachu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pikachu_name" />
+
+        <ImageView
+            android:id="@+id/imageViewSelectionGiratina"
+            android:layout_width="wrap_content"
+            android:layout_height="118dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/giratina" />
+
+        <RadioButton
+            android:id="@+id/radioGiratina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/giratina_name" />
+
+        <ImageView
+            android:id="@+id/imageViewSelectionCubone"
+            android:layout_width="wrap_content"
+            android:layout_height="118dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/cubone" />
+
+        <RadioButton
+            android:id="@+id/radioCubone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cubone_name" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageViewSelectionBulbasur"
+            android:layout_width="wrap_content"
+            android:layout_height="118dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/bulbasur" />
+
+        <RadioButton
+            android:id="@+id/radioBulbasur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bulbasur" />
+
+        <ImageView
+            android:id="@+id/imageViewSelectionGyarados"
+            android:layout_width="wrap_content"
+            android:layout_height="118dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/gyarados" />
+
+
+        <RadioButton
+            android:id="@+id/radioGyarados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gyarados" />
+
+        <ImageView
+            android:id="@+id/imageViewSelectionFeebas"
+            android:layout_width="wrap_content"
+            android:layout_height="118dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/feebas" />
+
+        <RadioButton
+            android:id="@+id/radioFeebas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feebas" />
+
+    </RadioGroup>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

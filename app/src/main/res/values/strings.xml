@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Pokemon battle simulator</string>
+    <string name="pikachu_name">Pikachu</string>
+    <string name="giratina_name">Giratina</string>
+    <string name="bulbasur_name">Bulbasur</string>
+    <string name="cubone_name">Cubone</string>
+    <string name="gyarados_name">Gyarados</string>
+    <string name="feebas_name">Feebas</string>
+
+
+    <string name="main_txt_start_fight">Select your opponent and start the fight to see who is the winner.</string>
 </resources>
